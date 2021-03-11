@@ -32,7 +32,7 @@ const Home = () => {
     setsearchOption(ev.target.value);
   };
 
-  console.log(searchOption);
+  // console.log(searchOption);
 
   const renderResults = () => {
     if (results && results.length === 0) {
